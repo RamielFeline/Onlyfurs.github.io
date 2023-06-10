@@ -1,0 +1,93 @@
+body {background-color: black; color: lime; font-family: Tahoma;
+}
+h1 {background-color: #262626;
+}
+h2 {background-color: #262626;
+}
+h3 {background-color: #262626;
+}
+h4 {background-color: #262626;
+}
+h5 {background-color: #262626;
+}
+h6 {background-color: #262626;
+}
+br {background-color: black;
+}
+
+
+div.container {
+  float: center;
+  border: 1px solid lime;
+  padding: 10px;
+  margin: 10px;
+}
+div.container_left {
+  float: left;
+  width: 45%;
+  border: 1px solid lime;
+  padding: 10px;
+  margin: 10px;
+}
+div.container_right {
+  float: right;
+  width: 45%;
+  border: 1px solid lime;
+  padding: 10px;
+  margin: 10px;
+}
+div.wrapper_full{
+    width: 100%;
+	display: inline-block;
+}
+
+div.videocontainer {
+  float: left;
+  width: 300px;
+  height: 400px;
+  border: 1px solid lime;
+  padding: 0px;
+  margin: 0px;
+}
+
+div.videogallery {
+	width: 100%;
+	float: left;
+}
+
+div.picturecontainer {
+  float: left;
+  width: 200px;
+  height: 250px;
+  border: 1px solid lime;
+  padding: 0px;
+  margin: 0px;
+}
+div.picturegallery {
+	width: 100%;
+	float: left;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #262626;
+}
+
+.topnav a {
+  float: left;
+  color: lime;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.topnav a:hover {
+  background-color: lime;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: lime;
+}
