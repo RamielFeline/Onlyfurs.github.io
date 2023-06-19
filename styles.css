@@ -1,20 +1,29 @@
-body {background-color: black; color: lime; font-family: Tahoma;
+body {
+  background-color: black; color:
+  lime; font-family: Tahoma;
 }
-h1 {background-color: #262626;
-}
-h2 {background-color: #262626;
-}
-h3 {background-color: #262626;
-}
-h4 {background-color: #262626;
-}
-h5 {background-color: #262626;
-}
-h6 {background-color: #262626;
+h1, h2, h3, h4, h5, h6 {
+  background-color: #262626;
 }
 br {background-color: black;
 }
 
+.hookupico a, h3 {
+  background-color:lime;
+  color:black;
+}
+.hookupico, a {
+  color: black;
+}
+.hookupico a:visited {
+  color: black;
+}
+.hookupico a:hover {
+  color: white;
+}
+.hookupico a:active {
+  color: lime;
+}
 
 div.container {
   float: center;
@@ -71,6 +80,7 @@ div.picturegallery {
 .topnav {
   overflow: hidden;
   background-color: #262626;
+  margin-top: -10px;
 }
 
 .topnav a {
