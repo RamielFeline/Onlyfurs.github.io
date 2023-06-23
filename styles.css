@@ -15,14 +15,47 @@ br {background-color: black;
 .hookupico, a {
   color: black;
 }
-.hookupico a:visited {
+.hookupico:visited {
   color: black;
 }
-.hookupico a:hover {
+.hookupico:hover {
   color: white;
 }
-.hookupico a:active {
+.hookupico:active {
+  background-color: green;
   color: lime;
+}
+
+.center_button {
+  text-align: center;
+  background-color:lime;
+  color:black;
+  width: 50%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center_button:visited {
+  text-align: center;
+  color:black;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center_button:hover {
+  text-align: center;
+  color: white;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center_button:active {
+  text-align: center;
+  background-color: green;
+  color: lime;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div.container {
