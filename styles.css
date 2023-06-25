@@ -110,6 +110,15 @@ div.picturegallery {
 	float: left;
 }
 
+div.hookupcontainer {
+  float: left;
+  width: 200px;
+  height: 250px;
+  border: 1px solid lime;
+  padding: 0px;
+  margin: 0px;
+}
+
 .topnav {
   overflow: hidden;
   background-color: #262626;
