@@ -68,6 +68,28 @@ a.wtfm {
   color: black;
 }
 /*WHERE TO FIND ME END*/
+/*STORY CARD START*/
+.storycard {
+  background-color: #262626;
+  width: 100%;
+  display: inline-block;
+  border: 5px solid gold;
+}
+.storycard:visited {
+  background-color: #262626;
+  color: black;
+}
+.storycard:hover {
+  background-color: lightgoldenrodyellow;
+  color: #262626;
+  border: 5px solid lightgoldenrodyellow;
+}
+.storycard:active {
+  background-color: darkgoldenrod;
+  color: gold;
+  border: 5px solid darkgoldenrod;
+}
+/*STORY CARD END*/
 
 .center_button {
   text-align: center;
