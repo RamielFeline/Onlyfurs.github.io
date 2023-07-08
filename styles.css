@@ -70,8 +70,9 @@ a.wtfm {
 /*WHERE TO FIND ME END*/
 /*STORY CARD START*/
 .storycard {
+  position:unset;
   background-color: #262626;
-  width: 100%;
+  width: 95%;
   display: inline-block;
   border: 5px solid gold;
 }
@@ -88,6 +89,12 @@ a.wtfm {
   background-color: darkgoldenrod;
   color: gold;
   border: 5px solid darkgoldenrod;
+}
+
+.storytease {
+  min-width: 100px;
+  max-width: 50%;
+  width: 130px;
 }
 /*STORY CARD END*/
 
@@ -188,6 +195,10 @@ div.videogallery {
 .picturegallery {
 	width: 100%;
 	float: center;
+}
+
+.navbutton {
+  border: 1px solid gold;
 }
 
 .topnav {
