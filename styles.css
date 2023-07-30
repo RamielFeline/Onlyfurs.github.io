@@ -170,7 +170,7 @@ div.videogallery {
 }
 
 .picturecontainer {
-  float: center;
+  float: middle;
   display: inline-block;
   width: 200px;
   height: 200px;
